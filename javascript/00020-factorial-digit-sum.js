@@ -15,4 +15,5 @@ function factorialSum(n) {
   return sum;
 }
 
-console.log(factorialSum(100));
+const result = factorialSum(100);
+console.log(result, result === 648);

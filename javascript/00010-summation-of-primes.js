@@ -22,4 +22,5 @@ function isPrime(num) {
   return true;
 }
 
-console.log(sumOfPrimesBelow(2000000) === 142913828922);
+const result = sumOfPrimesBelow(2000000);
+console.log(result, result === 142913828922);

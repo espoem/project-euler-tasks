@@ -4,4 +4,6 @@
 let num = BigInt(2 ** 1000);
 let sum = 0;
 for (let digit of num.toString()) sum += parseInt(digit);
-console.log(sum);
+
+const result = sum;
+console.log(result, result === 1366);

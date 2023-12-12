@@ -27,4 +27,5 @@ function findNumberOfDivisors(num) {
   return count;
 }
 
-console.log(triangleNumberWithOverNDivisors(500));
+const result = triangleNumberWithOverNDivisors(500);
+console.log(result, result === 76576500);

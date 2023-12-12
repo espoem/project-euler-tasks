@@ -40,4 +40,5 @@ const difference = (n) => {
   return squareOfSum2(n) - sumOfSquares2(n);
 };
 
-console.log(difference(100));
+const result = difference(100);
+console.log(result, result === 25164150);

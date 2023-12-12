@@ -37,4 +37,5 @@ function countSundays() {
   return sundays;
 }
 
-console.log(countSundays());
+const result = countSundays();
+console.log(result, result === 171);

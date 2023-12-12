@@ -24,4 +24,5 @@ const sumOfAmicableNumbers = () => {
   return sum;
 };
 
-console.log(sumOfAmicableNumbers());
+const result = sumOfAmicableNumbers();
+console.log(result, result === 31626);

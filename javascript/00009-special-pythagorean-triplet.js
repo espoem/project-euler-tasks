@@ -14,5 +14,5 @@ function pythagoreanTripletProduct(sum) {
   }
 }
 
-console.log(pythagoreanTripletProduct(1000));
-console.log(pythagoreanTripletProduct(1000) === 200 * 375 * 425);
+const result = pythagoreanTripletProduct(1000);
+console.log(result, result === 31875000); // 200 * 375 * 425

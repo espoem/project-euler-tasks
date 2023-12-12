@@ -15,4 +15,5 @@ function gcd(a, b) {
   return a;
 }
 
-console.log(smallestMultiple(20) === 232792560);
+const result = smallestMultiple(20);
+console.log(result, result === 232792560);

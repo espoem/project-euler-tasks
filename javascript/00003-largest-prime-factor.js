@@ -13,4 +13,5 @@ function largestPrimeFactor(number) {
   return prime - 2;
 }
 
-console.log(largestPrimeFactor(600851475143) === 6857);
+const result = largestPrimeFactor(600851475143);
+console.log(result, result === 6857);

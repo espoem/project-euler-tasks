@@ -13,4 +13,5 @@ const sumOfMultiplesBelow = (limit) => {
   );
 };
 
-console.log(sumOfMultiplesBelow(1000) === 233168);
+const result = sumOfMultiplesBelow(1000);
+console.log(result, result === 233168);

@@ -86,4 +86,5 @@ for (let i = 0; i < 20; i++) {
   }
 }
 
-console.log(maxProduct);
+const result = maxProduct;
+console.log(result, result === 70600674);

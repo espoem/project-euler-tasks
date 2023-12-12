@@ -48,4 +48,5 @@ function maximumTotal(triangle) {
   return triangle[0][0];
 }
 
-console.log(maximumTotal(triangle));
+const result = maximumTotal(triangle);
+console.log(result, result === 1074);

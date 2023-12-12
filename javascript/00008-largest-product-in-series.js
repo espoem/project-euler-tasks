@@ -34,4 +34,5 @@ function largestProduct(n) {
   return largest;
 }
 
-console.log(largestProduct(13));
+const result = largestProduct(13);
+console.log(result, result === 23514624000);

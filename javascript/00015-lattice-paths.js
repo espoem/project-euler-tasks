@@ -18,4 +18,5 @@ function binomialCoefficient(n, k) {
   return factorial(n) / (factorial(k) * factorial(n - k));
 }
 
-console.log(binomialCoefficient(40, 20));
+const result = binomialCoefficient(40, 20);
+console.log(result, result === 137846528820);

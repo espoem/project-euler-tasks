@@ -106,4 +106,5 @@ function getNumberWord(n) {
   }
 }
 
-console.log(countLetters);
+const result = countLetters;
+console.log(result, result === 21124);

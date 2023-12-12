@@ -27,4 +27,5 @@ function isPrime(num) {
   return true;
 }
 
-console.log(nthPrime(10001) === 104743);
+const result = nthPrime(10001);
+console.log(result, result === 104743);

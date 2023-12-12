@@ -23,4 +23,5 @@ function isPalindrome(n) {
   return str === str.split("").reverse().join("");
 }
 
-console.log(largestPalindromeProduct());
+const result = largestPalindromeProduct();
+console.log(result, result === 906609);

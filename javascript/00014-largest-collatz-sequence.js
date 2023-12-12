@@ -28,4 +28,5 @@ for (let i = 1; i < 1000000; i++) {
   }
 }
 
-console.log(startingNum);
+const result = startingNum;
+console.log(result, result === 837799);

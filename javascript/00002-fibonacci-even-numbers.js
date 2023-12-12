@@ -17,4 +17,5 @@ const fibonacciSum = () => {
   return sum;
 };
 
-console.log(fibonacciSum());
+const result = fibonacciSum();
+console.log(result, result === 4613732);
